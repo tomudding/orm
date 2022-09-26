@@ -17,6 +17,7 @@ class LazyEagerCollectionTest extends OrmFunctionalTestCase
     protected function setUp(): void
     {
         parent::setUp();
+
         $this->createSchemaForModels(
             LazyEagerCollectionUser::class,
             LazyEagerCollectionAddress::class,
